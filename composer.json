@@ -1,0 +1,14 @@
+{
+    "name": "juanintorres/revelacionextrema",
+    "description": "Nuevo sitio para revelacionextrema.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Torres",
+            "email": "juanin.torres@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "v3.1.17"
+    }
+}
