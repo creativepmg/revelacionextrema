@@ -1,0 +1,27 @@
+{
+  "name": "revelacionextrema",
+  "version": "0.0.1",
+  "description": "Nuevo sitio de Revelacion extrema",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juanintorres/revelacionextrema.git"
+  },
+  "keywords": [
+    "radio"
+  ],
+  "author": "Juan Torres <juanin.torres@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanintorres/revelacionextrema/issues"
+  },
+  "homepage": "https://github.com/juanintorres/revelacionextrema",
+  "dependencies": {},
+  "devDependencies": {
+    "normalize": "^0.3.1",
+    "jquery": "^1.11.0"
+  }
+}
