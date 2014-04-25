@@ -21,6 +21,5 @@ $mustache = new Mustache_Engine(array(
 ));
 
 $tpl = $mustache->loadTemplate('index'); // loads __DIR__.'/../views/index.mustache';
-echo $tpl->render(array('bar' => 'Este es el texto'));
+echo $tpl->render(array('texto' => 'Este es el texto'));
 ?>
-Lo que sea
