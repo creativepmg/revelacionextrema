@@ -1,5 +1,6 @@
 /vendor/
 /node_modules/
 /old/
+/components/
 revelacionextrema.sublime*
 composer.lock
