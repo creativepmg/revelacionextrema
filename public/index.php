@@ -16,7 +16,6 @@ $mustache = new Mustache_Engine(array(
     'escape' => function($value) {
         return htmlspecialchars($value, ENT_COMPAT, 'UTF-8');
     },
-    'charset' => 'ISO-8859-1',
     'logger' => new Mustache_Logger_StreamLogger('php://stderr'),
     'strict_callables' => true,
 ));
@@ -24,3 +23,4 @@ $mustache = new Mustache_Engine(array(
 $tpl = $mustache->loadTemplate('index'); // loads __DIR__.'/../views/index.mustache';
 echo $tpl->render(array('bar' => 'Este es el texto'));
 ?>
+Lo que sea
