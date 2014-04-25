@@ -2,6 +2,9 @@
 /node_modules/
 /old/
 /components/
+/cache/*
 revelacionextrema.sublime*
 composer.lock
 npm-debug.log
+
+!/cache/.gitkeep
