@@ -2,9 +2,53 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <title>Trabajando con Mustache</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="lib/modernizr.js"></script>
+    <script scr="lib/jquery.min.js"></script>
+    <script scr="lib/foundation.min.js"></script>
 </head>
 <body>
-    {{texto}}
+    <header class="small-10">
+        <figure class="small-12">
+            <img src="images/logo.png" alt="Logo RevelacionExtrema" tile="Logo RevelacionExtrema">
+        </figure>
+        <section id="info-contacto">
+            {{info-contacto}}
+        </section>
+        <nav class="top-bar" data-topbar>
+            <section class="top-bar-section">
+                <ul class="right">
+                    <li><a src="#">Inicio</a></li>
+                    <li><a src="#">Locutores</a></li>
+                    <li><a src="#">Programación</a></li>
+                    <li><a src="#">Galeria</a></li>
+                    <li><a src="#">Ranking</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+    <section>
+        <section id="slider">
+            
+        </section>
+        <section id="player">
+            
+        </section>
+        <section id="chat">
+            
+        </section>
+    </section>
+    <footer>
+        <p>
+            DELAWARE USA, LA MEJOR RADIO ONLINE DEL MOMENTO
+            LAS 24 HORAS DEL DIA, ESCUCHANOS DESDE CUALQUIER EQUIPO MOVIL
+            SI QUIERES SER PARTE DE ESTE GRAN EQUIPO COMUNICATE CON NOSOTROS
+        </p>
+        <a href="mailto:extrema_radio@hotmail.com">extrema_radio@hotmail.com</a>
+    </footer>
 </body>
 </html>
