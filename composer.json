@@ -9,8 +9,7 @@
         }
     ],
     "require": {
-        "mustache/mustache": "v2.6.0",
-        "components/foundation": "5.2.2"
+        "mustache/mustache": "v2.6.0"
     }
     ,
   "require-dev": {
